@@ -4,8 +4,8 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 
-FILE1_PATH = ".\models\\resnet18_training_history.csv"
-FILE2_PATH = ".\models\\mobilenet_v3_small_training_history.csv"
+FILE1_PATH = "./models/resnet18_training_history.csv"
+FILE2_PATH = "./models/mobilenet_v3_small_training_history.csv"
 
 PATHS = [FILE1_PATH, FILE2_PATH]
 
