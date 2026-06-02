@@ -1,5 +1,12 @@
 [project]
 name = "uml-uis-demo"
 version = "0.1.0"
-requires-python = ">=3.11"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = ["streamlit","matplotlib"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
