@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-#from developer.training_history import get_training_dataframe
 
 import matplotlib.pyplot as plt
 
@@ -60,7 +59,6 @@ def main():
 
     metrics = [column for column in df_columns if (("val" in column) or ("train" in column)) ]
     selected_metric = st.selectbox("Select a metric to compare across all models", options=metrics)
-
 
 
     # Implement 2nd widget where you select the metric and show all
